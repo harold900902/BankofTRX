@@ -1,0 +1,4 @@
+#Force SSL
+RewriteEngine On
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://bankoftrx.com/$1 [R,L]
